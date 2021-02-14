@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-var d = new Date(); // for now
-const curr_time = d.getHours(); // => 9
+var d = new Date();
+const curr_time = d.getHours();
 var session = "";
 var color = "";
 if (curr_time >= 0 && curr_time < 12) {
