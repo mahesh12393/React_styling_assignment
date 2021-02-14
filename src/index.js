@@ -9,7 +9,7 @@ if (curr_time >= 0 && curr_time < 12) {
   color = "red";
 } else if (curr_time >= 12 && curr_time < 18) {
   session = "afternoon";
-  color = "green";
+  color = "yellow";
 } else {
   session = "evening";
   color = "blue";
